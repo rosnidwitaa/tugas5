@@ -26,10 +26,10 @@
       @mouseenter="autoplay = false"
       @mouseleave="autoplay = true"
     >
-      <q-carousel-slide :name="1" img-src="./assets/carausel1.jpg" />
-      <q-carousel-slide :name="2" img-src="./assets/carausel2.jpg" />
-      <q-carousel-slide :name="3" img-src="./assets/carausel3.jpg" />
-      <q-carousel-slide :name="4" img-src="./assets/carausel4.jpg" />
+      <q-carousel-slide :name="1" img-src="src/assets/carausel1.jpg" />
+      <q-carousel-slide :name="2" img-src="src/assets/carausel2.jpg" />
+      <q-carousel-slide :name="3" img-src="src/assets/carausel3.jpg" />
+      <q-carousel-slide :name="4" img-src="src/assets/carausel4.jpg" />
     </q-carousel>
   </div>
 
@@ -44,7 +44,7 @@
     <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card" flat bordered>
       <q-img
-        src="./assets/card.jpg"
+        src="src/assets/card.jpg"
       />
 
       <q-card-section>        
