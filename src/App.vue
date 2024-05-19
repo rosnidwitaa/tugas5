@@ -26,10 +26,10 @@
       @mouseenter="autoplay = false"
       @mouseleave="autoplay = true"
     >
-      <q-carousel-slide :name="1" img-src="src/assets/carausel1.jpg" />
-      <q-carousel-slide :name="2" img-src="src/assets/carausel2.jpg" />
-      <q-carousel-slide :name="3" img-src="src/assets/carausel3.jpg" />
-      <q-carousel-slide :name="4" img-src="src/assets/carausel4.jpg" />
+      <q-carousel-slide :name="1" img-src="./assets/carausel1.jpg" />
+      <q-carousel-slide :name="2" img-src="./assets/carausel2.jpg" />
+      <q-carousel-slide :name="3" img-src="./assets/carausel3.jpg" />
+      <q-carousel-slide :name="4" img-src="./assets/carausel4.jpg" />
     </q-carousel>
   </div>
 
@@ -44,7 +44,7 @@
     <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card" flat bordered>
       <q-img
-        src="src/assets/card.jpg"
+        src="./assets/card.jpg"
       />
 
       <q-card-section>        
@@ -136,11 +136,11 @@ export default {
     const slide = ref(1);
     const autoplay = ref(true);
     const products = ref([
-      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: 'src/assets/tas1.jpeg' },
-      { id: 2, name: 'Celine', price: 'Rp 30.000.000', image: 'src/assets/tas2.jpeg' },
-      { id: 2, name: 'Gucci', price: 'Rp 24.500.000', image: 'src/assets/tas3.jpeg' },
-      { id: 2, name: 'Chanel', price: 'Rp 97.500.000', image: 'src/assets/tas4.jpeg' },
-      { id: 3, name: 'Louis Vuitton', price: 'Rp 39.000.000', image: 'src/assets/tas5.jpeg' }
+      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: './assets/tas1.jpeg' },
+      { id: 2, name: 'Celine', price: 'Rp 30.000.000', image: './assets/tas2.jpeg' },
+      { id: 2, name: 'Gucci', price: 'Rp 24.500.000', image: './assets/tas3.jpeg' },
+      { id: 2, name: 'Chanel', price: 'Rp 97.500.000', image: './assets/tas4.jpeg' },
+      { id: 3, name: 'Louis Vuitton', price: 'Rp 39.000.000', image: './assets/tas5.jpeg' }
     ]);
 
     const form = ref({
