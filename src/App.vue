@@ -26,10 +26,10 @@
       @mouseenter="autoplay = false"
       @mouseleave="autoplay = true"
     >
-      <q-carousel-slide :name="1" img-src="src/assets/carausel1.jpg" />
-      <q-carousel-slide :name="2" img-src="src/assets/carausel2.jpg" />
-      <q-carousel-slide :name="3" img-src="src/assets/carausel3.jpg" />
-      <q-carousel-slide :name="4" img-src="src/assets/carausel4.jpg" />
+      <q-carousel-slide :name="1" img-src="/images/carausel1.jpg" />
+      <q-carousel-slide :name="2" img-src="/images/carausel2.jpg" />
+      <q-carousel-slide :name="3" img-src="/images/carausel3.jpg" />
+      <q-carousel-slide :name="4" img-src="/images/carausel4.jpg" />
     </q-carousel>
   </div>
 
@@ -44,7 +44,7 @@
     <div class="q-pa-md row items-start q-gutter-md">
     <q-card class="my-card" flat bordered>
       <q-img
-        src="src/assets/card.jpg"
+        src="/images/card.jpg"
       />
 
       <q-card-section>        
@@ -136,11 +136,11 @@ export default {
     const slide = ref(1);
     const autoplay = ref(true);
     const products = ref([
-      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: 'src/assets/tas1.jpeg' },
-      { id: 2, name: 'Celine', price: 'Rp 30.000.000', image: 'src/assets/tas2.jpeg' },
-      { id: 2, name: 'Gucci', price: 'Rp 24.500.000', image: 'src/assets/tas3.jpeg' },
-      { id: 2, name: 'Chanel', price: 'Rp 97.500.000', image: 'src/assets/tas4.jpeg' },
-      { id: 3, name: 'Louis Vuitton', price: 'Rp 39.000.000', image: 'src/assets/tas5.jpeg' }
+      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: '/images/tas1.jpeg' },
+      { id: 2, name: 'Celine', price: 'Rp 30.000.000', image: '/images/tas2.jpeg' },
+      { id: 2, name: 'Gucci', price: 'Rp 24.500.000', image: '/images/tas3.jpeg' },
+      { id: 2, name: 'Chanel', price: 'Rp 97.500.000', image: '/images/tas4.jpeg' },
+      { id: 3, name: 'Louis Vuitton', price: 'Rp 39.000.000', image: '/images/tas5.jpeg' }
     ]);
 
     const form = ref({
@@ -204,7 +204,7 @@ header nav a {
 }
 
 .hero {
-  background: url('src/assets/store.jpg') no-repeat center center/cover;
+  background: url('/images/store.jpg') no-repeat center center/cover;
   color: #fff;
   text-align: center;
   padding: 5em 1em;
