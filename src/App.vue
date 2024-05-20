@@ -136,7 +136,7 @@ export default {
     const slide = ref(1);
     const autoplay = ref(true);
     const products = ref([
-      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: 'src/assets/tas1.jpeg' },
+      { id: 1, name: 'Dior', price: 'Rp 50.000.000', image: 'src/assets/tas1.jpg' },
       { id: 2, name: 'Celine', price: 'Rp 30.000.000', image: 'src/assets/tas2.jpeg' },
       { id: 2, name: 'Gucci', price: 'Rp 24.500.000', image: 'src/assets/tas3.jpeg' },
       { id: 2, name: 'Chanel', price: 'Rp 97.500.000', image: 'src/assets/tas4.jpeg' },
